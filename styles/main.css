@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
+a:visited { text-decoration: none; color: black; }
+a:hover, a:active { text-decoration: none; color: #e15d53 }
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -19,53 +21,55 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #e15d53;
+text-decoration: underline;
   color: white;
 }
 
 .top-half {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-text-align: center;
-background: #e15d53;
-height: 25vh;
-width: 100%;
-font-family: 'Tourney', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #e15d53;
+  height: 20vh;
+  width: 100%;
+  font-family: "Tourney", cursive;
 
-color: white;
+  color: white;
 }
 
 #casey-title {
-    font-size: 60px;
-    font-family: 'Tourney', cursive;
+  font-size: 60px;
+  font-family: "Tourney", cursive;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+  
+}
 
-  .all-images {
-      display: flex;
-      justify-content: space-evenly;
-      padding: 50px 50px;
-  }
+.all-images {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 50px;
+  text-decoration: none;
+}
 .image-container {
-    display: flex;
-    object-fit: contain;
-    overflow: hidden;
-    width: 400px;
-    height: 400px; }
+  display: flex;
+  object-fit: contain;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
 
 .image-title {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
