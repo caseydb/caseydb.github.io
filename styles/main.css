@@ -115,4 +115,12 @@ p {
     font-size: 20px;
 }
 
+.code-example {
+  display: block;
+}
+
+.tab {
+ margin-left: 40px;
+}
+
  
