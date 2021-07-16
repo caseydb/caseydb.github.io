@@ -123,3 +123,7 @@ p {
 .tab {
  margin-left: 40px;
 }
+
+body {
+  margin: 0px 0px 50px 0px;
+}
