@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Problem Solving</title>
+		<link href="../styles/main.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div class="topnav">
+			<a href="https://caseydb.github.io/blog/learning-plan.html">Learning Plan</a>
+			<a href="https://caseydb.github.io/blog/values.html">Values</a>
+			<a href="https://caseydb.github.io/">Home</a>
+		</div>
+
+		<div class="top-half">
+			<h1 id="casey-title">Casey's Blog</h1>
+			<h2>This is my journey to becoming a developer</h2>
+			<br />
+
+			<select name="form" onchange="location = this.value;">
+				<option value="">-- Choose a blog --</option>
+				<option value="problem-solving.html">Problem Solving</option>
+				<option value="neuroplasticity.html">Neuroplasticity</option>
+				<option value="javascript-dom.html">JS Fundamentals</option>
+				<option value="emotional-intelligence.html">Emotional Intelligence</option>
+				<option value="inline-vs-blocks.html">Inline vs Blocks</option>
+				<option value="learning-plan.html">Learning Plan</option>
+				<option value="values.html">Values</option>
+			</select>
+		</div>
+
+		<div class="all-images">
+			<div>
+				<h2 class="image-title">Problem Solving</h2>
+				<div class="image-container">
+					<img src="https://static.turbosquid.com/Preview/2014/07/07__21_42_14/Render1.pngb31f310e-fc9d-444e-8d3a-2a489ff11bdfOriginal.jpg" />
+				</div>
+			</div>
+		</div>
+
+		<div class="plan">
+			<div class="plan-items">
+				<h2>Getting blocked on a simple problem</h2>
+				<p>Early into this sprint I got stuck on a seemingly easy challenge. All I had to do was take this function:</p>
+				<br />
+
+				<p>
+					function testSum(){<br />
+					var expected = 7 <br />var actual = sum(5, 2) <br />if (actual != expected) <br />{ console.log("It's broken..") }<br />
+					else { console.log("It works!") } <br />}
+				</p>
+				<br />
+
+				<p>And write a “sum” function that would return “It works!” from the above function. The solution needed was:</p>
+				<br />
+
+				<p>
+					function sum(a,b){<br />
+					return (a+b); <br />} <br />testSum()
+				</p>
+				<br />
+				<p>
+					Ultimately I needed to read different test solutions on stackoverflow and play around with it to solve it. I knew this
+					was supposed to be easy, which didn’t make me feel good. I learnt that it is easy to overthink something. I had caught
+					up in trying to pass an argument into testSum. Whereas testSum actually had all the inputs it needed. It simply needed
+					to be returned.
+				</p>
+			</div>
+			<div class="plan-items">
+				<h2>Elegant problem solving</h2>
+				<br />
+				<p>
+					During the Super FizzBuzz challenge I ran into the problem of trying to return an array with either a combination of
+					correct strings plus numbers. I knew I needed a for loop but had forgotten how to write it. 10 seconds on google >
+					stackoverflow and I had my one line for loop.
+				</p>
+				<br />
+
+				<p>
+					It made truly realise Joseph’s point that you don’t need to remember all the syntax - you just need to know what you are
+					trying to do and get good at searching for the answer.
+				</p>
+				<br />
+			</div>
+			<div class="plan-items">
+				<h2>Some thoughts on problem solving techniques:</h2>
+				<p>
+					I feel grateful that I have been surrounded by people who have helped shape me towards gravitating towards a default
+					growth mindset.
+				</p>
+				<br />
+				<p>
+                    <strong>Pseudocode:</strong> I feel confident with this but also think I have a long way to go. While helpful, I’m still not fluent in my problem solving 
+                    skills which leaves me digging deep to write this. </p><br>
+
+                    <p><strong>Just trying:</strong> This is my favourite go to. I really like to give it a nudge and see how far I can get. When I hit walls, I lean on successful 
+                        examples and study them until I understand. I then try to recreate my first attempt with this new knowledge. </p><br>
+                    
+                    <p><strong> Messages:</strong> These are super helpful when it’s an error. The challenge I face is it’s often not an error, but rather being new to knowing 
+                        the solution I need to implement. </p><br>
+                    
+                    <p><strong> logging:</strong> This is one of my best friends! Really helpful to be able to follow the code outputs as you go and make sure it is behaving 
+                        as expected. Often it can identify where things are going wrong part way through a process. </p><br>
+                    
+                  <p>  <Strong>Google / Stack Overflow:</Strong> These are my two most common ways I troubleshoot a problem. It’s impressive how strong the online community 
+                  is at helping each other. If you are stuck, chances are someone else was stuck too!</p>  <br>
+                    
+				</p>
+				<br />
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,72 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>JS Fundamentals</title>
-    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
-  </head>
+	<head>
+		<title>JS Fundamentals</title>
+		<link href="../styles/main.css" rel="stylesheet" type="text/css" />
+	</head>
 
-  <body>
-    <div class="topnav">
-        <a href="https://caseydb.github.io/blog/learning-plan.html">Learning Plan</a>
-        <a href="https://caseydb.github.io/blog/values.html">Values</a>
-        <a href="https://caseydb.github.io/">Home</a>
-    </div>
+	<body>
+		<div class="topnav">
+			<a href="https://caseydb.github.io/blog/learning-plan.html">Learning Plan</a>
+			<a href="https://caseydb.github.io/blog/values.html">Values</a>
+			<a href="https://caseydb.github.io/">Home</a>
+		</div>
 
-    <div class="top-half">
-      <h1 id="casey-title">Casey's Blog</h1>
-      <h2> This is my journey to becoming a developer </h2><br>
+		<div class="top-half">
+			<h1 id="casey-title">Casey's Blog</h1>
+			<h2>This is my journey to becoming a developer</h2>
+			<br />
 
-      <select name="form" onchange="location = this.value;">
-        <option value=""> -- Choose a blog -- </option>
-        <option value="neuroplasticity.html">Neuroplasticity</option>
-        <option value="javascript-dom.html">JS Fundamentals</option>
-        <option value="emotional-intelligence.html">Emotional Intelligence</option>
-        <option value="inline-vs-blocks.html">Inline vs Blocks</option>
-        <option value="learning-plan.html">Learning Plan</option>
-        <option value="values.html">Values</option>
-      </select>
-  </div>
+			<select name="form" onchange="location = this.value;">
+				<option value="">-- Choose a blog --</option>
+				<option value="problem-solving.html">Problem Solving</option>
+				<option value="neuroplasticity.html">Neuroplasticity</option>
+				<option value="javascript-dom.html">JS Fundamentals</option>
+				<option value="emotional-intelligence.html">Emotional Intelligence</option>
+				<option value="inline-vs-blocks.html">Inline vs Blocks</option>
+				<option value="learning-plan.html">Learning Plan</option>
+				<option value="values.html">Values</option>
+			</select>
+		</div>
 
-  <div class="all-images">
-    <div>
-      <h2 class="image-title">Javascript Fundamentals</h2>
-      <div class="image-container">
-          <img src="https://modernweb.com/app/uploads/2013/10/JavaScript_Fundamentals_Header.jpg">
-      </div>
-  </div>
-  </div>
+		<div class="all-images">
+			<div>
+				<h2 class="image-title">Javascript Fundamentals</h2>
+				<div class="image-container">
+					<img src="https://modernweb.com/app/uploads/2013/10/JavaScript_Fundamentals_Header.jpg" />
+				</div>
+			</div>
+		</div>
 
-    <div class="plan">
-        <div class="plan-items">
-        <h2> The differences between HTML and CSS using an analogy</h2>
-<p>HTML is like the structure of a house and it’s contents. It looks after the core foundation of how things are joined together + the interior. 
-    For example the walls and furniture for the house, or for the HTML it would be the organisation and structure of headings and the content itself. </p></div>
-    <br><p>CSS is like paint and decorations for the house. It is what brings it to life and makes it pleasant to take in. This could include the colors, 
-        fonts, and position. </p>
-<div class="plan-items">
-<h2>Control flow and loops </h2>
-<p>Control flow and loops allow control over the order things are done and how many times things may be done. For example, if every morning the first
-     thing you do is wake up and walk the dog around 3 blocks, then make 1 cup of coffee - that is a control flow with a loop (repetitions) of 3 blocks
-      and 1 coffee.</p><br>
-</div>
-<div class="plan-items">
-<h2>What the DOM is and how you can interact with it</h2>
-<p>Objects are used to represent a “thing” in your code. That could be a person, a car, a building, a book, a character in a game — basically anything 
-    that is made up or can be defined by a set of characteristics. In objects, these characteristics are called properties that consist of a key and a value.  </p><br>
-    <p>We use arrays whenever we want to create and store a list of multiple items in a single variable. Arrays are especially useful when creating ordered 
-        collections where items in the collection can be accessed by their numerical position in the list.</p>
-</div>
-<div class="plan-items">
-<h2> Explain the difference between accessing data from arrays and objects </h2>
-<p>To successfully manage the workload of EDA I need to honour time blocking. Having clear and scheduled times for development will give me the space to detach 
-from other work and get my sprints done. </p>
-
-</div>
-<div class="plan-items">
-<h2>Explain what functions are and why they are useful</h2>
-<p>A function is a set of statements, or instructions, that perform a task. You pass in information known as an argument, such as the number 10. You can then
-     apply instructions such as multiple it by 5. You can then gain the result, otherwise known as returning it. In this case it would be 10x5 = 50.</p>
-    </div>
-</div>
-  </body>
+		<div class="plan">
+			<div class="plan-items">
+				<h2>The differences between HTML and CSS using an analogy</h2>
+				<p>
+					HTML is like the structure of a house and it’s contents. It looks after the core foundation of how things are joined
+					together + the interior. For example the walls and furniture for the house, or for the HTML it would be the organisation
+					and structure of headings and the content itself.
+				</p>
+			</div>
+			<br />
+			<p>
+				CSS is like paint and decorations for the house. It is what brings it to life and makes it pleasant to take in. This could
+				include the colors, fonts, and position.
+			</p>
+			<div class="plan-items">
+				<h2>Control flow and loops</h2>
+				<p>
+					Control flow and loops allow control over the order things are done and how many times things may be done. For example,
+					if every morning the first thing you do is wake up and walk the dog around 3 blocks, then make 1 cup of coffee - that is
+					a control flow with a loop (repetitions) of 3 blocks and 1 coffee.
+				</p>
+				<br />
+			</div>
+			<div class="plan-items">
+				<h2>What the DOM is and how you can interact with it</h2>
+				<p>
+					Objects are used to represent a “thing” in your code. That could be a person, a car, a building, a book, a character in
+					a game — basically anything that is made up or can be defined by a set of characteristics. In objects, these
+					characteristics are called properties that consist of a key and a value.
+				</p>
+				<br />
+				<p>
+					We use arrays whenever we want to create and store a list of multiple items in a single variable. Arrays are especially
+					useful when creating ordered collections where items in the collection can be accessed by their numerical position in
+					the list.
+				</p>
+			</div>
+			<div class="plan-items">
+				<h2>Explain the difference between accessing data from arrays and objects</h2>
+				<p>
+					To successfully manage the workload of EDA I need to honour time blocking. Having clear and scheduled times for
+					development will give me the space to detach from other work and get my sprints done.
+				</p>
+			</div>
+			<div class="plan-items">
+				<h2>Explain what functions are and why they are useful</h2>
+				<p>
+					A function is a set of statements, or instructions, that perform a task. You pass in information known as an argument,
+					such as the number 10. You can then apply instructions such as multiple it by 5. You can then gain the result, otherwise
+					known as returning it. In this case it would be 10x5 = 50.
+				</p>
+			</div>
+		</div>
+	</body>
 </html>
